@@ -16,10 +16,10 @@ int main () {
    
    
    
-   //giatien1cuontrongngay20/11
+   //giatiendcgiamtrongngay20/11
    
 	tien1 = tien * 20 / 100  ;
-	//giatientrongngay20/11
+	//giatien1cuontrongngay20/11
 	tien2= tien - tien1;
    
    //tongsotienkhimua10cuon
