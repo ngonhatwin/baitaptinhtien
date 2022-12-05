@@ -16,26 +16,27 @@ int main () {
    
    
    
-   //giatiendcgiamtrongngay20/11
+   //gia tien dc giam trong nga y20/11
    
 	tien1 = tien * 20 / 100  ;
-	//giatien1cuontrongngay20/11
+   //gia tien 1 cuon trong ngay 20/11
 	tien2= tien - tien1;
    
-   //tongsotienkhimua10cuon
+   //tong so tien khi mua 10 cuon
    tongtien1= 10 * tien;
-   //tongsotienkhimua10cuonvaongay20/11
+   //tong so tien khi mua 10 cuon vao ngay 20/11
    tongtien2= 10 * tien2;
-   
+   //truong hop la hoi vien
    if (  hoivien == 1 ) {
    		printf ("\n so tien ban phai tra la = %d ", tongtien2);
    	
-   	} 
+   	}
+   //truong hop khong phai la hoi vien
    else if ( hoivien == 0) {
    
    		printf ("\n so tien ban phai tra la = %d", tongtien1);
    } else {
-   	 printf ( "\n hay nhap 1 hoac 0");
+   	 printf ( "\n ban co muon tro thanh hoi vien khong");
    }
    
 }
